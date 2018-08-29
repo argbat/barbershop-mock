@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolBarH">44dp</dimen>
+    <dimen name="toolBarPadding">2dp</dimen>
+    <dimen name="toolBarIconW">40dp</dimen>
+    <dimen name="toolBarIconH">40dp</dimen>
+
+    <dimen name="map_padding">18dp</dimen>
+
+    <dimen name="editTextH">33dp</dimen>
+    <dimen name="iconInsideEditTextW">28dp</dimen>
+    <dimen name="iconInsideEditTextH">28dp</dimen>
+
+    <dimen name="textSizeSmall">14sp</dimen>
+    <dimen name="textSizeNormal">16sp</dimen>
+    <dimen name="textSizeBig">18sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

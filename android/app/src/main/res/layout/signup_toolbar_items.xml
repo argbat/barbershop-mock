@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signup_toolbar_items"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/signup_toolbar_items_back_btn"
+        android:layout_width="@dimen/toolBarIconW"
+        android:layout_height="@dimen/toolBarIconH"
+        android:background="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/signup_toolbar_items_title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/toolBarIconH"
+        android:layout_centerInParent="true"
+        android:theme="@style/AppTheme.Toolbar.Title"
+        android:text="@string/signup"/>
+
+    <TextView
+        android:id="@+id/signup_toolbar_items_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/toolBarIconH"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:gravity="center"
+        android:textColor="@color/colorToolbarLeftActionText"
+        android:text="@string/signup"/>
+
+</RelativeLayout>

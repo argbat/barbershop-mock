@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Barbershop</string>
+
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="zipcode">Zip code</string>
+
+    <string name="locator">Barbershop Locations</string>
+    <string name="locations_search_hint">search by name, address or zip code</string>
+    <string name="services">Available services</string>
+    <string name="shifts">Available shifts</string>
+</resources>

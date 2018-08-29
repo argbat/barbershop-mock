@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shopservices_item"
+    android:layout_width="match_parent"
+    android:layout_height="56dp">
+
+    <TextView
+        android:id="@+id/shopservices_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorPrimaryDarkText"
+        android:textStyle="bold"
+        tools:text="Task 1 - 30 minutes" />
+    <TextView
+        android:id="@+id/shopservices_item_short_desciption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/shopservices_item_name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="@color/colorPrimaryText"
+        tools:text="Service short description" />
+    <ImageView
+        android:id="@+id/shopservices_item_next"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ic_arrow_right"/>
+    <ImageView
+        android:id="@+id/shopservices_item_divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/shopservices_item_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/colorPrimaryLight"/>
+</android.support.constraint.ConstraintLayout>

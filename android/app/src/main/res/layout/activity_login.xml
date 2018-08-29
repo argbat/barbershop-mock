@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/login_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolBarH"
+        app:contentInsetEnd="0dp"
+        app:contentInsetStart="0dp">
+        <FrameLayout
+            android:id="@+id/login_toolbar_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/toolBarPadding">
+        </FrameLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:id="@+id/login_top_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/login_toolbar"/>
+
+    <RelativeLayout
+        android:id="@+id/login_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:layout_below="@+id/login_top_divider">
+
+        <EditText
+            android:id="@+id/login_input_user_value"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/editTextH"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_white"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorPrimaryDarkText"
+            android:hint="@string/email"/>
+
+        <EditText
+            android:id="@+id/login_input_pwd_value"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/editTextH"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_white"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:inputType="textPassword"
+            android:textColor="@color/colorPrimaryDarkText"
+            android:layout_below="@+id/login_input_user_value"
+            android:hint="@string/password"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+
